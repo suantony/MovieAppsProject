@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MovieAppsProject</string>
+    <string name="popular_movie">Popular Movie</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="description">Description</string>
+    <string name="review">Review</string>
+    <string name="favorite">Favorite</string>
+    <string name="empty">Empty</string>
+</resources>
