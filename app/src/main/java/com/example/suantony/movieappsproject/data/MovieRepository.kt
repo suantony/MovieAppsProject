@@ -230,12 +230,10 @@ class MovieRepository(
             .subscribeOn(Schedulers.io())
             .subscribe()
     }
-
     override fun deleteFavoriteMovie(movie: MovieEntity) {
         localDataSource.deleteFavoriteMovie(movie)
             .subscribeOn(Schedulers.io())
             .subscribe()
     }
-
 
 }

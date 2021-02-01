@@ -3,6 +3,7 @@ package com.example.suantony.movieappsproject.ui.favorite
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.observe
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.suantony.movieappsproject.R
 import kotlinx.android.synthetic.main.activity_favorite_movie.*
@@ -28,5 +29,6 @@ class FavoriteMovieActivity : AppCompatActivity() {
             setHasFixedSize(true)
             adapter = favoriteAdapter
         }
+
     }
 }

@@ -18,4 +18,5 @@ class DetailViewModel(private val movieRepository: MovieRepository) : ViewModel(
     fun insertFavoriteMovie(movie: MovieEntity) = movieRepository.insertFavoriteMovie(movie)
 
     fun deleteFavoriteMovie(movie: MovieEntity) = movieRepository.deleteFavoriteMovie(movie)
+
 }
